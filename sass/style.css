@@ -1,0 +1,46 @@
+html {
+  background: #333 url(http://freehqphotos.com/wp-content/uploads/2013/11/Blurry-City-Night-Photography-Wallpaper.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+body {
+  font: 36px/1 "PT Sans Narrow", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  height: 100%; }
+
+h1 {
+  font-weight: bold;
+  font-size: 150%;
+  padding: 20px 20px 0 25px;
+  margin: 0; }
+
+ul {
+  padding: 20px;
+  perspective: 900px; }
+
+li {
+  position: relative;
+  padding: 10px 20px 10px 70px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transform-origin: 0 0;
+  transition: all 1s cubic-bezier(0.06, 0.15, 0.075, 1.015);
+  transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 500px, 0); }
+  li:hover {
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer; }
+  li.show {
+    opacity: 1;
+    transform: rotate3d(1, 0, 0, 0deg) translate3d(0, 0, -10px); }
+  li.show:hover {
+    transform: rotate3d(1, 0, 0, 0deg) translate3d(0, 0, 0px); }
+  li .date {
+    font-size: 60%;
+    width: 62px;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    text-align: right;
+    display: inline-block; }
