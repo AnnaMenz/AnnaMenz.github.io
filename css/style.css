@@ -103,7 +103,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 100%;
 }
 
 
@@ -146,6 +146,9 @@ background-image: linear-gradient(45deg,
                     #44107A,
                     #FF1361,
                     #FFF800);
+}
+h5{
+	font-size: 30px;
 }
 
 h2{
