@@ -6,7 +6,7 @@ var MAXIMUM_COLOR_R = 180;
 var MAXIMUM_COLOR_G = 15;
 var MAXIMUM_COLOR_B = 30;
 
-var ICONS_DISTANCE = 50;
+var ICONS_DISTANCE = 100;
 
 var cachePosition = {
   x: 0,
