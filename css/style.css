@@ -188,6 +188,8 @@ a {
 }
 
 h4{
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 
 			font-size: 60px;
 		color: shadow2;
@@ -201,6 +203,8 @@ h5{
 	font-size: 30px;
   color:  #ADD8E6;
   line-height: 120%;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 
 }
 
