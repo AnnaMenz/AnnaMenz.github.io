@@ -1,3 +1,23 @@
+/* imager hover*/
+.card {
+  image
+        width: 50%;
+        height: 50%;
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+/* imager hover*/
+
 /*bouncing arrow*/
 #section06 a {
   padding-top: 70px;
@@ -213,6 +233,7 @@ h5{
 h2{
 		font-size: 60px;
 background-color: white;
+line-height: 120%;
 	font-family: 'Bungee Inline', cursive;
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
@@ -223,7 +244,7 @@ background-color: white;
 h3{
 
   background-color: #4286f4;
-	font-size: 30px;
+	font-size: 40px;
 	position: relative;
   text-transform: uppercase;
   letter-spacing: 6px;
