@@ -70,17 +70,11 @@
     flex-grow: 1;
 }
 
- .White{
-  background-color: #d1c8cb;
-  background-size: auto;
-  padding: 25px;
-
-}
 
 h1{
-  font-size: 70px;
-  color: #db7bcb;
-   -webkit-text-stroke-width: 3px;
+  font-size: 30px;
+  color: white;
+   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 
 }
@@ -211,10 +205,9 @@ a {
 
 h4{
    -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
+   -webkit-text-stroke-color: white;
 
 			font-size: 50px;
-		color: shadow2;
   font-family: 'Bungee Shade', cursive;
 background-image: linear-gradient(45deg,#7794ff, #44107A,#912b4d,#000000);
 }
