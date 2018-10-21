@@ -36,9 +36,9 @@ function setSmoothColorChange(pos, colors) {
 // As the function name applies.
 function generateRGB(isObj) {
   var colors = {
-    r: getRandomInt(0, 255),
-    g: getRandomInt(0, 255),
-    b: getRandomInt(0, 255) };
+    r: getRandomInt(0, 30),
+    g: getRandomInt(0, 30),
+    b: getRandomInt(0, 30) };
 
   return isObj ? colors : "rgb(" + colors.r + "," + colors.g + "," + colors.b + ")";
 };
